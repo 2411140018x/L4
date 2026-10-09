@@ -11,6 +11,7 @@ Rails.application.routes.draw do
 
   get "top/main"
   post "top/login"
+  get "top/logout"
 
   # Defines the root path route ("/")
   root "top#main"
